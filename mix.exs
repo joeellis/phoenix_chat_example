@@ -33,7 +33,10 @@ defmodule FepApp.MixProject do
   # Type `mix help deps` for examples and options.
   defp deps do
     [
-      {:phoenix, git: "https://github.com/phoenixframework/phoenix", override: true},
+      {:phoenix,
+       git: "https://github.com/phoenixframework/phoenix",
+       ref: "2ddd0ee46ddf49e44db0ec876dc9c4cff940f2d2",
+       override: true},
       {:phoenix_pubsub, "~> 1.1"},
       {:phoenix_ecto, "~> 3.2"},
       {:postgrex, ">= 0.0.0"},
